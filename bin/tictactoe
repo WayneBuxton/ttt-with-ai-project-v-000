@@ -4,11 +4,10 @@ require_relative '../config/environment'
 def start
   puts "Welcome to Tic Tac Toe!"
   game = Game.new
-
-  puts "Please choose player_1 or player_2"
   game.current_player
-
+  puts "Please choose player_1 or player_2"
+  
   game.play
 
-  
+
 end
