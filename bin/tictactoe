@@ -2,8 +2,8 @@
 
 require_relative '../config/environment'
 class Intro
-def greeting
-  puts "Hello!"
-end
+  def greeting
+    puts "Hello!"
+  end
 end
 greeting
