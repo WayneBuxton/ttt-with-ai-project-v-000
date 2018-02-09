@@ -9,7 +9,8 @@ def start
 
   game.play until game.won?
 
-  
+  if game.winner 
+    puts "Congratulations! You have won!"
 
 
 end
