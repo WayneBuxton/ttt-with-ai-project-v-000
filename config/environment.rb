@@ -1,5 +1,5 @@
 require 'bundler'
-require 'all'
+#require 'all'
 Bundler.require
 
 require_all 'lib'
