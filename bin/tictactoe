@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
-  def greeting
-    puts "Welcome to Tic Tac Toe!"
-  end
 
-greeting
+puts "Welcome to Tic Tac Toe!"
+game = Game.new
