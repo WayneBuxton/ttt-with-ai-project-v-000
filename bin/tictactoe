@@ -5,5 +5,5 @@ def start
   puts "Welcome to Tic Tac Toe!"
   game = Game.new
 
-  puts "Please choose player_1 of player_2"
+  puts "Please choose player_1 or player_2"
 end
