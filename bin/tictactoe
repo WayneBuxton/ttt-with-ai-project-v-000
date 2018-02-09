@@ -4,4 +4,4 @@ require_relative '../config/environment'
 
 puts "Welcome to Tic Tac Toe!"
 game = Game.new
-Board.position
+board.position
