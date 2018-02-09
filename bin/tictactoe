@@ -3,5 +3,7 @@
 require_relative '../config/environment'
 
 def greeting
-  puts "Hello"
+  puts "Hello!"
 end
+
+greeting
