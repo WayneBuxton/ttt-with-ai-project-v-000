@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
-
+class Intro
 def greeting
   puts "Hello!"
 end
 
 greeting
+
+end
