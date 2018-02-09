@@ -26,8 +26,7 @@ module Players
         if board.turn_count == 4 && board.cells[0,2] == "X" && !board.taken?(2) return "2"
         if board.turn_count == 4 && board.cells[0,2] == "X" && !board.taken?(8) return "5"
         if board.turn_count == 4 && board.cells[0,2] == "X" && !board.taken?(9) return "7"
-        elsif board.turn_count == 6 && board.cells[0,3,4] == "X" && !board.taken?(6)
-          "6"
+        if board.turn_count == 6 && board.cells[0,3,4] == "X" && !board.taken?(6) return "6"
         elsif board.turn_count == 6 && board.cells[0,3,4] == "X" && !board.taken?(9)
           "9"
         elsif board.turn_count == 6 && board.cells[0,1,4] == "X" && !board.taken?(8)
