@@ -7,3 +7,5 @@ class Intro
   end
 end
 
+greeting = Intro.new
+
