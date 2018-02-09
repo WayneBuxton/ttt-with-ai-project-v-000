@@ -11,9 +11,8 @@ module Players
 
        def move(board)
 
-        if board.turn_count == 0 return"1"
-        elsif board.turn_count == 2 && board.taken?(2 || 3)
-          "4"
+        if board.turn_count == 0 return "1"
+        if board.turn_count == 2 && board.taken?(2 || 3) return "4"
         elsif board.turn_count == 2 && board.taken?(4 || 5 || 7)
           "2"
         elsif board.turn_count == 2 && board.taken?(6)
