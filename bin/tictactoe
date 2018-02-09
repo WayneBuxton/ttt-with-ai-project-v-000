@@ -1,11 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
-class Intro
   def greeting
     puts "Welcome to Tic Tac Toe!"
   end
-end
-
-greeting = Intro.new
 
