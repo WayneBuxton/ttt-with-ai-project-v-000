@@ -6,8 +6,10 @@ def start
   game = Game.new
   game.current_player
   puts "Please choose player_1 or player_2"
+
+  game.play until game.won?
+
   
-  game.play
 
 
 end
